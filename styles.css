@@ -1,0 +1,148 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0; /* Reset margin to zero */
+    padding: 0; /* Reset padding to zero */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    background-color: #f9f9f9; /* Set background color */
+    color: #333; /* Set text color */
+}
+
+header {
+    background-color: #005b9f; /* Set background color */
+    color: #fff; /* Set text color */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add padding */
+}
+
+h1 {
+    font-size: 2.5rem; /* Set font size for h1 */
+    margin-bottom: 0.2em; /* Add margin at the bottom */
+}
+
+p {
+    font-size: 1.25rem; /* Set font size for paragraphs */
+}
+
+section {
+    background-color: #fff; /* Set background color */
+    margin: 20px; /* Add margin */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Added rounded border for all sections */
+}
+
+a {
+    color: #005b9f; /* Set link text color */
+    text-decoration: none; /* Remove underlines from links */
+    border-bottom: 2px solid #005b9f; /* Add a bottom border to links */
+}
+
+a:hover {
+    border-bottom: 2px solid #005aa5; /* Change the bottom border on hover */
+}
+
+ul {
+    list-style: disc; /* Set list style to discs */
+    margin-left: 20px; /* Add left margin to lists */
+}
+
+footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Add padding */
+}
+
+/* Ensure good color contrast for text */
+h1, h2, p, a, footer {
+    background-color: transparent; /* Set transparent background for better contrast */
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    p {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+
+    ul {
+        list-style: disc; /* Set list style to discs on smaller screens */
+        margin-left: 10px; /* Adjust left margin for lists on smaller screens */
+    }
+}
+
+/* Style for the Summary section in light mode */
+#summary, #contact {
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+    margin: 20px; /* Add margin */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Added rounded border for Summary and Contact sections */
+}
+
+/* Style for the Work Experience section in light mode */
+#experience, #education {
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Added rounded border for Work Experience and Education sections */
+    margin: 20px ; /* Add margin */
+}
+
+#experience h2, #education h2 {
+    font-size: 1.5em; /* Set font size for h2 elements */
+    margin: 10px 0; /* Add margin */
+}
+
+#experience article, #education article {
+    background-color: #eee; /* Set background color */
+    border: 1px solid #e5e5e5; /* Add border */
+    border-radius: 5px; /* Add rounded border */
+    margin: 10px 0; /* Add margin */
+    padding: 20px; /* Add padding */
+}
+
+#experience article h3, #education article h3 {
+    font-size: 1.2em; /* Set font size for h3 elements */
+    margin: 10px 0; /* Add margin */
+}
+
+#experience article p, #education article p {
+    margin: 10px 0; /* Add margin */
+    line-height: 1.6; /* Set line height */
+}
+
+#experience article:last-child, #education article:last-child {
+    margin-bottom: 0; /* Remove margin from the last child of articles */
+}
+
+/* Styles for the Additional Certificates and Licences section in light mode */
+#certificates {
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Added rounded border */
+    margin: 20px ; /* Add margin */
+}
+
+#certificates h2 {
+    font-size: 1.2em; /* Adjust the font size to match the Education section */
+    margin: 10px 0; /* Add margin */
+}
+
+.certificate {
+    background-color: #ddd; /* Set background color */
+    padding: 10px; /* Add padding */
+    margin: 10px 0; /* Add margin */
+    border-radius: 5px; /* Added rounded border */
+}
+
+/* Style for the footer text in light mode */
+footer {
+    color: #333; /* Change the text color to a dark color for better visibility */
+}
