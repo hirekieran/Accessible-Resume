@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Employment Resume Web Application is a user-friendly online tool designed to create and manage personal resumes. It allows users to easily input their professional information, work experiences, educational background, and additional certifications and licenses. The application aims to help individuals efficiently generate well-structured resumes, enhancing their job application process.
+The Employment Resume Web Application is a user-friendly online one-page template designed to create and manage personal resumes. It allows users to easily input their professional information, work experiences, educational background, and additional certifications and licenses. The application aims to help individuals efficiently generate well-structured resumes, enhancing their job application process.
 
 ## Benefits
 
@@ -33,7 +33,7 @@ To deploy the Employment Resume Web Application, follow these steps:
 1. Clone the Repository:
    bash
    git clone https://github.com/hirekieran/Accessible-Resume.git
-   cd employment-resume-app
+   cd Accessible-Resume.git
    
 2. Set Up a Web Server:
 Deploy the application on a web server of your choice. You can use a local development server or a hosting service. Make sure your server supports HTML, CSS, and JavaScript.
